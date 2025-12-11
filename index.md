@@ -1,83 +1,279 @@
-# Spotter Documentation
-
 ## Changing Default Settings
 
 ### Change the Default Units
 
-| Step | Screenshot |
-| --- | --- |
-| 1. Navigate to Spotter Server Settings. <br> 2. Go to the **Settings** tab. <br> 3. Set **Speed** to **Meters per Second** and **Distance** to **Meters**. | ![Spotter Server Settings](images/image1.png) <br><br> ![Settings tab](images/image3.png) <br><br> ![Units set to meters](images/image2.png) |
+<table style="border-collapse: collapse; border: none; width: 100%;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px; padding-bottom: 16px;">
+      1. Navigate to Spotter Server Settings.
+    </td>
+    <td style="border: none; vertical-align: top; padding-bottom: 16px;">
+      <img src="images/image1.png" alt="Spotter Server Settings icon" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px; padding-bottom: 16px;">
+      2. Go to the <strong>Settings</strong> tab.
+    </td>
+    <td style="border: none; vertical-align: top; padding-bottom: 16px;">
+      <img src="images/image3.png" alt="Settings tab" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      3. Set <strong>Speed</strong> to <strong>Meters per second (m/s)</strong> and <strong>Distance</strong> to <strong>Meters (m)</strong>.
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image2.png" alt="Units set to meters" />
+    </td>
+  </tr>
+</table>
 
 
 ## Creating Filters
 
-| Description | Screenshots |
-| --- | --- |
-| Create filters by going to **Filter** and clicking the **+** button. | ![Filter list](images/image5.png) <br><br> ![Create filter](images/image4.png) |
+Create filters by going to **Filter** and clicking the **+** button.
+
+<table style="border-collapse: collapse; border: none; width: 100%; margin-top: 8px;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <img src="images/image5.png" alt="Filter list" />
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image4.png" alt="Create filter" />
+    </td>
+  </tr>
+</table>
 
 
 ### People Filter
 
-| Instructions | Screenshot |
-| --- | --- |
-| Filter: **People** is a default, so you just need to modify the default *People* filter. <br><br>• Remove the upper bounds of speed. <br>• Change duration to **5 seconds**. <br>• Select appropriate radars (usually can set to **all ground radars**). <br>• Replace distance with **Displacement ≥ 10 m**. | ![People filter configuration](images/image7.png) |
+Filter: **People** is a default, so you just need to modify the default *People* filter.
+
+<table style="border-collapse: collapse; border: none; width: 100%; margin-top: 8px;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <ul>
+        <li>Remove the upper bounds of speed.</li>
+        <li>Change duration to <strong>5 seconds</strong>.</li>
+        <li>Select appropriate radars (usually can set to <strong>all ground radars</strong>).</li>
+        <li>Replace distance with <strong>Displacement ≥ 10 m</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image7.png" alt="People filter configuration" />
+    </td>
+  </tr>
+</table>
 
 
 ### Unknown Filter
 
-| Instructions | Screenshot |
-| --- | --- |
-| Filter: **Unknown** is not a default and needs to be created manually. <br><br>• Set **Type = Unknown** with **0% confidence**. <br>• Select appropriate radars (usually can set to **all ground radars**). | ![Unknown filter configuration](images/image6.png) |
+Filter: **Unknown** is not a default and needs to be created manually.
+
+<table style="border-collapse: collapse; border: none; width: 100%; margin-top: 8px;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <ul>
+        <li>Set <strong>Type</strong> to <strong>Unknown</strong> with <strong>0% confidence</strong>.</li>
+        <li>Select appropriate radars (usually can set to <strong>all ground radars</strong>).</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image6.png" alt="Unknown filter configuration" />
+    </td>
+  </tr>
+</table>
 
 
 ### Vehicle Filter
 
-| Instructions | Screenshot |
-| --- | --- |
-| Filter: **Vehicles** is a default, so you just need to modify the default *Vehicles* filter. <br><br>• Remove the lower bounds of speed. <br>• Change duration to **5 seconds**. <br>• Select appropriate radars (usually can set to **all ground radars**). <br>• Replace distance with **Displacement ≥ 15 m**. | ![Vehicle filter configuration](images/image9.png) |
+Filter: **Vehicles** is a default, so you just need to modify the default *Vehicles* filter.
+
+<table style="border-collapse: collapse; border: none; width: 100%; margin-top: 8px;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <ul>
+        <li>Remove the lower bounds of speed.</li>
+        <li>Change duration to <strong>5 seconds</strong>.</li>
+        <li>Select appropriate radars (usually can set to <strong>all ground radars</strong>).</li>
+        <li>Replace distance with <strong>Displacement ≥ 15 m</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image9.png" alt="Vehicle filter configuration" />
+    </td>
+  </tr>
+</table>
 
 
 ## Creating Classifications
 
-| Instructions | Screenshots |
-| --- | --- |
-| Classifications are a type of **Action**. <br><br>1. Go to **Actions**. <br>2. Create a new action by clicking the **+** icon. <br>3. Set the **Type** to **Classification**. | ![Actions list](images/image8.png) <br><br> ![New classification action](images/image12.png) |
+<table style="border-collapse: collapse; border: none; width: 100%;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <p>Classifications are a type of <strong>Action</strong>.</p>
+      <ul>
+        <li>Create a new action by clicking the <strong>+</strong> icon.</li>
+        <li>Set the <strong>Type</strong> to <strong>Classification</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image12.png" alt="New classification action" />
+    </td>
+  </tr>
+</table>
 
 
 ### Probable People Classification
 
-| Instructions | Screenshot |
-| --- | --- |
-| • Set the name to **“Probable Person”**. <br>• Set the **Type** to **Person**. <br>• Set the **Intent** to **Unknown**. | ![Probable Person classification](images/image10.png) |
+<table style="border-collapse: collapse; border: none; width: 100%; margin-top: 8px;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <ul>
+        <li>Set the name to <strong>“Probable Person”</strong>.</li>
+        <li>Set the <strong>Type</strong> to <strong>Person</strong>.</li>
+        <li>Set the <strong>Intent</strong> to <strong>Unknown</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image10.png" alt="Probable Person classification" />
+    </td>
+  </tr>
+</table>
 
 
 ### Probable Vehicle Classification
 
-| Instructions | Screenshot |
-| --- | --- |
-| • Set the name to **“Probable Vehicle”**. <br>• Set the **Type** to **Vehicle**. <br>• Set the **Intent** to **Unknown**. | ![Probable Vehicle classification](images/image11.png) |
+<table style="border-collapse: collapse; border: none; width: 100%; margin-top: 8px;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <ul>
+        <li>Set the name to <strong>“Probable Vehicle”</strong>.</li>
+        <li>Set the <strong>Type</strong> to <strong>Vehicle</strong>.</li>
+        <li>Set the <strong>Intent</strong> to <strong>Unknown</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image11.png" alt="Probable Vehicle classification" />
+    </td>
+  </tr>
+</table>
 
 
 ## Setting Radar Sensitivity
 
-### Default Sensitivity
+### Default
 
-| Instructions | Screenshots |
-| --- | --- |
-| 1. Go to **Settings**. <br>2. Go to **Devices**. <br>3. Select the desired radar. <br>4. Go to **Sensitivity**. <br>5. Select the preset **“Medium Wind”**. <br>   • In some firmware, it is just called **“Medium”**. | ![Radar device sensitivity view](images/image13.png) <br><br> ![Medium wind preset](images/image14.png) |
+<table style="border-collapse: collapse; border: none; width: 100%;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px; padding-bottom: 16px;">
+      <ul>
+        <li>Go to <strong>Settings</strong>.</li>
+        <li>Go to <strong>Devices</strong>.</li>
+        <li>Select desired radar.</li>
+        <li>Go to <strong>Sensitivity</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top; padding-bottom: 16px;">
+      <img src="images/image13.png" alt="Radar device sensitivity view" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <ul>
+        <li>Select the preset <strong>“Medium Wind”</strong>.</li>
+        <li>In some firmware, it is just called <strong>“Medium”</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image14.png" alt="Medium wind preset" />
+    </td>
+  </tr>
+</table>
 
 
 ## Adding Zone Classifications
 
 ### Classification: Probable People
 
-| Instructions | Screenshots |
-| --- | --- |
-| 1. Go to **Settings**. <br>2. Go to **Zones**. <br>3. Select the desired Zone. <br>4. Go to **Actions**. <br>5. Add a new action. <br>6. Configure the action: <br>&nbsp;&nbsp;• Set **Type** to **Classification**. <br>&nbsp;&nbsp;• Set **Action** to your **“Classification: Probable Person”** you created. <br>&nbsp;&nbsp;• Set **Filter Group** to **People**. <br>&nbsp;&nbsp;• Click **Add**. | ![Zone actions view](images/image15.png) <br><br> ![Add action button](images/image16.png) <br><br> ![Probable Person zone classification action](images/image17.png) |
+<table style="border-collapse: collapse; border: none; width: 100%;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px; padding-bottom: 16px;">
+      <ul>
+        <li>Go to <strong>Settings</strong>.</li>
+        <li>Go to <strong>Zones</strong>.</li>
+        <li>Select desired Zone.</li>
+        <li>Go to <strong>Actions</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top; padding-bottom: 16px;">
+      <img src="images/image15.png" alt="Zone actions view" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px; padding-bottom: 16px;">
+      <ul>
+        <li>Add a new action.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top; padding-bottom: 16px;">
+      <img src="images/image16.png" alt="Add action button" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <ul>
+        <li>Set <strong>Type</strong> to <strong>Classification</strong>.</li>
+        <li>Set <strong>Action</strong> to your <strong>“Classification: Probable Person”</strong> you created.</li>
+        <li>Set <strong>Filter Group</strong> to <strong>People</strong>.</li>
+        <li>Click <strong>Add</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image17.png" alt="Probable Person zone classification action" />
+    </td>
+  </tr>
+</table>
 
 
 ### Classification: Probable Vehicle
 
-| Instructions | Screenshots |
-| --- | --- |
-| 1. Go to **Settings**. <br>2. Go to **Zones**. <br>3. Select the desired Zone. <br>4. Go to **Actions**. <br>5. Add a new action. <br>6. Configure the action: <br>&nbsp;&nbsp;• Set **Type** to **Classification**. <br>&nbsp;&nbsp;• Set **Action** to your **“Classification: Probable Vehicle”** you created. <br>&nbsp;&nbsp;• Set **Filter Group** to **Vehicles**. <br>&nbsp;&nbsp;• Click **Add**. | ![Zone actions view](images/image15.png) <br><br> ![Add action button](images/image16.png) <br><br> ![Probable Vehicle zone classification action](images/image18.png) |
+<table style="border-collapse: collapse; border: none; width: 100%;">
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px; padding-bottom: 16px;">
+      <ul>
+        <li>Go to <strong>Settings</strong>.</li>
+        <li>Go to <strong>Zones</strong>.</li>
+        <li>Select desired Zone.</li>
+        <li>Go to <strong>Actions</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top; padding-bottom: 16px;">
+      <img src="images/image15.png" alt="Zone actions view" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px; padding-bottom: 16px;">
+      <ul>
+        <li>Add a new action.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top; padding-bottom: 16px;">
+      <img src="images/image16.png" alt="Add action button" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; padding-right: 16px;">
+      <ul>
+        <li>Set <strong>Type</strong> to <strong>Classification</strong>.</li>
+        <li>Set <strong>Action</strong> to your <strong>“Classification: Probable Vehicle”</strong> you created.</li>
+        <li>Set <strong>Filter Group</strong> to <strong>Vehicles</strong>.</li>
+        <li>Click <strong>Add</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="images/image18.png" alt="Probable Vehicle zone classification action" />
+    </td>
+  </tr>
+</table>
