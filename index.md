@@ -14,8 +14,7 @@
     </td>
   </tr>
   <tr>
-    <td style="border: none; vertical-align: middle; text-align: left; padding-right: 16px; padding-bottom: 16px;">
-      2. Go to the <strong>Settings</strong> tab.
+    <td style="border: none; vertical-align: middle; text-align: left; padding-right: 16px; padding-bottom: 16px;">      2. Go to the <strong>Settings</strong> tab.
     </td>
     <td style="border: none; vertical-align: middle; text-align: center; padding-bottom: 16px;">
       <img src="images/image3.png" alt="Settings tab" style="display: block; margin: 0 auto;" />
@@ -71,7 +70,7 @@ Filter: **People** is a default, so you just need to modify the default *People*
 
 ### Unknown Filter
 
-Filter: **Unknown** is not a default and needs to be created manually.
+Filter: **Unknown** is not a default and needs to be created manually and added to <strong>Default</strong>..
 
 <table style="border-collapse: collapse; border: none; width: 100%; margin-top: 8px;">
   <tr>
@@ -276,6 +275,68 @@ Filter: **Vehicles** is a default, so you just need to modify the default *Vehic
     </td>
     <td style="border: none; vertical-align: middle; text-align: center;">
       <img src="images/image18.png" alt="Probable Vehicle zone classification action" style="display: block; margin: 0 auto;" />
+    </td>
+  </tr>
+</table>
+
+## Setting Alarm Schedule
+
+### Creating Schedule Filter
+
+Filter: **Schedule** is not a default and needs to be created manually and added to <strong>Default</strong>.
+
+<table style="border-collapse: collapse; border: none; width: 100%; margin-top: 8px;">
+  <tr>
+    <td style="border: none; vertical-align: middle; text-align: left; padding-right: 16px;">
+      <ul>
+        <li>Click <Strong>[Select to Add]</strong> and add a <Strong>Schedule</strong>.</li>
+        <li>Select appropriate time and days of week you want to <Strong>IGNORE</Strong>.</li>
+        <li>Change <Strong>Schedule in X</strong> to <Strong>Schedule not in X</Strong></li>
+        <li>Save</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: middle; text-align: center;">
+      <img src="images/image19.png" alt="Schedule filter configuration" style="display: block; margin: 0 auto;" />
+    </td>
+  </tr>
+</table>
+
+### Setting WebRelay Filter
+
+<table style="border-collapse: collapse; border: none; width: 100%;">
+  <tr>
+    <td style="border: none; vertical-align: middle; text-align: left; padding-right: 16px; padding-bottom: 16px;">
+      <ul>
+        <li>Go to <strong>Settings</strong>.</li>
+        <li>Go to <strong>Zones</strong>.</li>
+        <li>Select desired Zone.</li>
+        <li>Go to <strong>Actions</strong>.</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: middle; text-align: center; padding-bottom: 16px;">
+      <img src="images/image15.png" alt="Zone actions view" style="display: block; margin: 0 auto;" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: middle; text-align: left; padding-right: 16px; padding-bottom: 16px;">
+      <ul>
+        <li>Go to <Strong>Actions</Strong>.</li>
+        <li>Navigate to the relevant Web Relay </li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: middle; text-align: center; padding-bottom: 16px;">
+      <img src="images/image20.png" alt="Add action button" style="display: block; margin: 0 auto;" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: middle; text-align: left; padding-right: 16px;">
+      <ul>
+        <li>Add the <Strong>Schedule</Strong> as a <Strong>Filter Group</Strong> </li>
+        <li>Check the <Strong>All filters must match</Strong> box</li>
+      </ul>
+    </td>
+    <td style="border: none; vertical-align: middle; text-align: center;">
+      <img src="images/image21.png" alt="Schedule Filter Added to Webrelay" style="display: block; margin: 0 auto;" />
     </td>
   </tr>
 </table>
